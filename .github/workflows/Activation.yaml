@@ -11,7 +11,7 @@ jobs:
     
       - name: Request manual activation file
         id: getManualLicenseFile
-        uses: sumeshi96/unity-request-activation-file@v2
+        uses: sumeshi96/unity-request-activation-file
         with:
           unityVersion: 2022.3.10f1
           
